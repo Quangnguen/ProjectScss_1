@@ -1,0 +1,15 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sasstocss": "node-sass sass/main.scss css/style.css -w",
+    "scss": "node-sass --watch sass/main.scss css/style.css --output-style nested"
+  },
+  "author": "quangnguyenn",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
